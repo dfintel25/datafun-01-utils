@@ -1,5 +1,6 @@
 '''  ITERATION 5
-Module: Stellar Analytics - Reusable Module for My Data Analytics Projects
+Module: Step 5 of P1: Create a New Python Module
+Author: Derek Fintel
 This module provides a simple, reusable foundation for my analytics projects. 
 Process:
 In this iteration, I enhance the byline to include key details about skills
