@@ -31,6 +31,9 @@ min_score: float = min(client_satisfaction_scores)
 max_score: float = max(client_satisfaction_scores)  
 mean_score: float = statistics.mean(client_satisfaction_scores)  
 stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_wifi_score: float = min(number_of_wifi_routers)
+max_wifi_score: float = max(number_of_wifi_routers)
+stdev_wifi_score: float = statistics.stdev(number_of_wifi_routers)
 #####################################
 # Declare a global variable named byline. 
 # Make it a multiline f-string to show our information.
@@ -51,6 +54,9 @@ Minimum Satisfaction Score: {min_score}
 Maximum Satisfaction Score: {max_score}
 Mean Satisfaction Score:    {mean_score:.2f}
 Standard Deviation:         {stdev_score:.2f}
+Minimum Wifi Routers:       {min_wifi_score}
+Maximum Wifi Routers:       {max_wifi_score}
+Standard Deviation Wifi:    {stdev_wifi_score: .2f}
 """
 #####################################
 # Define the get_byline() Function
