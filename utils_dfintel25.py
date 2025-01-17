@@ -1,7 +1,8 @@
 '''  ITERATION 5
 Module: Step 5 of P1: Create a New Python Module
 Author: Derek Fintel
-This module provides a simple, reusable foundation for my analytics projects. 
+I have modified this sample module to include new parameters below. 
+Each commit of GitLab has the discrete changes noted.
 Process:
 In this iteration, I enhance the byline to include key details about skills
 and client satisfaction scores. This makes the byline more informative and professional, 
