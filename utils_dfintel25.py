@@ -15,10 +15,14 @@ import statistics
 # Declare global variables
 #####################################
 has_international_clients: bool = True
+like_pop_music: bool = True
 years_in_operation: int = 10
+number_of_bathrooms: int = 17
 average_client_satisfaction: float = 4.7
+user_GitHub: str = "https://github.com/dfintel25"
 skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
 client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+number_of_wifi_routers: float = [2.2, 1.2, 3.2]
 #####################################
 # Calculate Basic Statistics
 #####################################
@@ -36,9 +40,13 @@ byline: str = f"""
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
 Has International Clients:  {has_international_clients}
+Likes Pop Music:            {like_pop_music}   
 Years in Operation:         {years_in_operation}
+Number of Bathrooms:        {number_of_bathrooms}
 Skills Offered:             {skills_offered}
 Client Satisfaction Scores: {client_satisfaction_scores}
+User Github:                {user_GitHub}
+Number of Wifi Routers:     {number_of_wifi_routers}
 Minimum Satisfaction Score: {min_score}
 Maximum Satisfaction Score: {max_score}
 Mean Satisfaction Score:    {mean_score:.2f}
